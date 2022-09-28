@@ -1,14 +1,5 @@
 def partition(l, r, nums):
-    # Last element will be the pivot and the first element the pointer
-    pivot, ptr = nums[r], l
-    for i in range(l, r):
-        if nums[i] <= pivot:
-            # Swapping values smaller than the pivot to the front
-            nums[i], nums[ptr] = nums[ptr], nums[i]
-            ptr += 1
-    # Finally swapping the last element with the pointer indexed number
-    nums[ptr], nums[r] = nums[r], nums[ptr]
-    return ptr
+   
  
 example = [4, 5, 1, 2, 3]
 result = [1, 2, 3, 4, 5]
@@ -21,3 +12,8 @@ print(quicksort(0, len(example)-1, example))
 
 file comment
 git hub
+
+kguhksfhlishgl
+ewgkuhkgvbfjkvnkef
+arlwjiejliljfew
+sefjkgsbjkldf
